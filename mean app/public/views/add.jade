@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  div.well
+    h1 Add new qoute
+    br
+    form(action='add' method='post')
+      table
+        tr
+          td
+            label Qoute :
+          td
+            input(type='text' name='qoute' size=35)
+          td(align='right')
+            input(type='Submit', value='Save')

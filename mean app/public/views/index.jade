@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.well
+    h1 Qoutes
+    br
+    form(method='post')
+                | Search qoutes
+                div
+                    input(type='text', name='word')
+                    input(type='submit', value='submit')
+    br
+    br
+    a(href='/add') Add new qoute
